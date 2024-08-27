@@ -19,6 +19,14 @@
   transition: all .2s linear;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
@@ -63,7 +71,7 @@ section{
 /* header */
 
 .header{
-  position: fixed;
+  display: flex;
   top: 0; left: 0; right: 0;
   z-index: 1000;
   display: flex;
